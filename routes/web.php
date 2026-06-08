@@ -61,7 +61,6 @@ Route::middleware('auth')->prefix('pekerja')->name('absensi.')->group(function (
     Route::post('/check-out', [AbsensiController::class, 'checkOut'])->name('checkOut');
     Route::get('/riwayat', [AbsensiController::class, 'riwayat'])->name('riwayat');
     Route::get('/checkout', [AbsensiController::class, 'showCheckoutForm'])->name('checkoutForm');
-    Route::post('/checkout', [AbsensiController::class, 'checkOut'])->name('checkOut');
 });
 
 /*
