@@ -81,9 +81,9 @@
                 </table>
             </div>
         </div>
-    <div class="card-footer bg-transparent border-0 pt-3 pb-3 d-flex justify-content-center">
-    {{ $users->links('pagination::bootstrap-5') }}
-</div>
+        <div class="card-footer bg-transparent border-0 pt-3 pb-3 d-flex justify-content-center">
+            {{ $users->links('pagination::bootstrap-5') }}
+        </div>
     </div>
 </div>
 

@@ -71,7 +71,7 @@
                             <td>{{ $index + 1 }}</td>
                             <td class="text-start">
                                 <span class="fw-semibold">{{ $d->user->name }}</span>
-                                <br><small class="text-muted">{{ $d->user->email }}</small>
+                                
                             </td>
                             <td class="text-center">{{ $d->totalHadir }}</td>
                             <td class="text-center">{{ $d->totalIzin }}</td>
